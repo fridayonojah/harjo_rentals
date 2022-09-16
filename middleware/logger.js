@@ -1,3 +1,4 @@
+const config = require('config');
 const {
     createLogger,
     transports,
@@ -10,7 +11,7 @@ const logger = createLogger({
 
     transports:[
         new transports.MongoDB({
-            db:'mongodb://localhost/vidly',
+            db: config.get("db"),
             level: 'error',
             collection: 'appErrors',
             options:{

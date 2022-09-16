@@ -8,7 +8,7 @@ let server;
 describe('/api/genres', () => {
   // beforeAll(() => jest.setTimeout(90 * 4000));
     beforeEach(() => { 
-      server = require('../../server');
+      server = require('../../server');;
       // jest.setTimeout(8000);
     });
 

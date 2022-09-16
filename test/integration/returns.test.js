@@ -27,7 +27,7 @@ describe('/api/returns', () => {
     
     beforeEach(async() => {
         // jest.setTimeout(2000);
-        server = require('../..');
+        server = require('../../server');
 
         customerId = mongoose.Types.ObjectId();
         movieId = mongoose.Types.ObjectId();
