@@ -1,4 +1,4 @@
 {
     "jwtPrivateKey":"Admin",
-    "db": "mongodb://localhost/vidly"
+    "db": "mongodb+srv://harjor:harjor_rentals@harjorentals.e0n7ttq.mongodb.net/?retryWrites=true&w=majority"
 }
