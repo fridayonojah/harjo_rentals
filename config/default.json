@@ -1,4 +1,6 @@
 {
-    "jwtPrivateKey":"Admin",
-    "db": "mongodb+srv://harjor:harjor_rentals@harjorentals.e0n7ttq.mongodb.net/?retryWrites=true&w=majority"
+    "jwtPrivateKey": "unsecureKey",
+    "db": "mongodb://localhost/vidly",
+    "port": "3900",
+    "requiresAuth": true
 }
