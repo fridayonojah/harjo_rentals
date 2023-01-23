@@ -49,17 +49,7 @@ You should see the list of genres. That confirms that you have set up everything
 
 If you look at config/default.json, you'll see a property called jwtPrivateKey. This key is used to encrypt JSON web tokens. So, for security reasons, it should not be checked into the source control. I've set a default value here to make it easier for you to get up and running with this project. For a production scenario, you should store this key as an environment variable.
 
-config/default.json
-jwtPrivateKey: 
-db: 
-port: 
-requiresAuth: 
 
-config/test.json
-jwtPrivateKey: 
-db: 
-port: 
-requiresAuth: 
 
 On Mac:
 

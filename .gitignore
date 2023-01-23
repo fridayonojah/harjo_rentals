@@ -1,6 +1,3 @@
 /node_modules
-.DS_Store
 /coverage
-*.log
-/config
-/config/*.json
+logfile.log
